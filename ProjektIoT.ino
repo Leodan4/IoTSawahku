@@ -4,7 +4,7 @@
 
 String ID_ALAT = "422641";
 char ssid[] = "RedmiZaky";
-char pass[] = "350075LM";
+char pass[] = "Password";
 
 int status = WL_IDLE_STATUS;
 const char* host = "api.thingspeak.com";
@@ -19,8 +19,8 @@ const long interval = 30000;
 //===Database===//
 WiFiEspClient client;
 unsigned long myChannelNumber = 1895967;
-String myWriteAPIKey = "03TXG8KE7R52F6YF";
-String myReadAPIKey = "ZMJ1CC36Y1GFYEDU";
+String myWriteAPIKey = "wRiteApI";
+String myReadAPIKey = "rEadApI";
 unsigned int motorFieldNumber = 4;
 
 #define AirPin A0
